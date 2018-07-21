@@ -1,0 +1,20 @@
+Команды для консоли (cmd):
+Компиляция:  javac FileName.java => на выходе должен получиться FileName.class
+Запуск кода: java FileName       => отработает файл с расширение FileName.class
+Упаковка в архив: jar cfe Hello.jar Hello HelloWorld.class => Hello.jar - это имя архива, Hello - основное имя класса, HelloWorld.class помещаемый файл в новый архив
+Просмотр содержимого архива: jar tf Hello.jar => вывод в консоле содержимого файла
+Распаковка файла из архива: jar xf Hello.jar  => рспакуется папка META-INF, в ней будет файл с описанием.
+
+Сокращенные наименования lдля IDEA: 
+psvm - public static void main(String[] args) {
+sout - System.out.println(
+
+Пример кода:
+public class HelloWorld {
+    public static void main(String[] args) {
+
+        // На 6-й строке, выводим фразу - Hello World, на экран.
+
+        System.out.println("Hello World!");
+    }
+}
